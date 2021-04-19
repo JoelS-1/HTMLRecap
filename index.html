@@ -7,6 +7,84 @@
     <title>HTMLRecap</title>
 </head>
 <body>
-    
+    <h1>Welcome to my second HTML assignment!</h1>
+    <div>
+        <h3>Music Preferences</h3>
+        <p>We are going to be talking about one of my favorite topics, music! Below I have compiled a quick survey to gauge your interest in a few different artists</p>
+    </div>
+    <section>
+        <h3>Question One: What artists do you listen to?</h3>
+        <Fieldset>
+            <legend>Music Likes</legend>
+            <label for="weeknd">The Weeknd</label>
+            <input type="checkbox" name="likes" id="weeknd" />
+
+            <label for="eilish">Billie Eilish</label>
+            <input type="checkbox" name="likes" id="eilish" />
+
+            <label for="styles">Harry Styles</label>
+            <input type="checkbox" name="likes" id="styles" />
+        </Fieldset>
+    </section>
+    <section>
+        <h3>Question Two: Why?</h3>
+        <p>For each artist listed above, please explain why you listen to them or why you do not.</p>
+        <fieldset>
+            <legend>The Why</legend>
+            <p>
+                <label for="theweeknd">The Weeknd:</label>
+                <textarea id="theweeknd" name="theweeknd" rows="4"></textarea>
+            </p>
+            <p>
+                <label for="billie">Billie Eilish:</label>
+                <textarea id="billie" name="billie" rows="4"></textarea>
+            </p>
+            <p>
+                <label for="harry">Harry Styles:</label>
+                <textarea id="harry" name="harry" rows="4"></textarea>
+            </p>
+        </fieldset>
+    </section>
+    <div>
+        <h3>Thanks for your participation!</h3>
+        <p> Below I have included a link to each artists current most viewed song on YouTube (publication date: 04-19-2021)</p>
+    </div>
+    <section>
+        <h4>The Weeknd</h4>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/4NRXx6U8ABQ" title="The Weeknd"  
+        allowfullscreen></iframe>
+
+        <h4>Billie Eilish</h4>
+        <iframe width="1280" height="720" 
+        src="https://www.youtube.com/embed/V1Pl8CzNzCw?start=28" 
+        title="Billie Eilish" 
+        allowfullscreen>
+        </iframe>
+
+        <h4>Harry Styles</h4>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/qN4ooNx77u0?start=28" 
+        title="Harry Styles"
+        allowfullscreen></iframe>
+    </section>
+
+    <nav>
+        <h4>Useful links:</h4>
+        <ul>
+            <li>
+                <a href="https://www.spotify.com/" target="_blank">The Website I use to listen to these artits the most(Spotfiy)</a>
+            </li>
+            <li>
+                <a href="https://www.theweeknd.com/" target="_blank">The Weeknd</a>
+            </li>
+            <li>
+                <a href="https://www.billieeilish.com/" target="_blank">Billie Eilish</a>
+
+            </li>
+            <li>
+                <a href="https://hstyles.co.uk/" target="_blank">Harry Styles</a>
+            </li>
+        </ul>
+
+    </nav>
 </body>
 </html>
